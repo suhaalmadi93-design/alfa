@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="index-alfa.css">
+</head>
+<body>
+    
+ <div id="container">
+
+    <header>
+        <div class="left">
+             <img src="logo-story.png" alt="logo" style="width: 50%; height: auto; border-radius: 30%;"/>
+             <h2>Stories for children</h2>
+            </div>
+
+
+        <div class="serch">
+             <label for="serch">&#128269;Serch</label>
+             <input type="text" id="serch" name="serch" placeholder="ابحث عن قصة"/>
+            </div>
+
+        <div class="right">
+            <label for="Loga in">&#128100;Loga in</label>
+            <input type="text" id="Loga in" name="Loga in" placeholder="أكتب ايميلك"/>
+            <label for="password">&#128274;Password</label>
+            <input type="text" id="password" name="Password" placeholder="123456"/>
+            </div>
+    </header>
+
+    <nav>
+     <a href="Home">&#127968; Home/ الرأيسة</a>
+     <a href="contact us">&#128231; Contact us/ تواصل معنا</a>
+     <a href="Home">&#127916; Stories/ قصص</a>
+     <br/>
+     <a href="Home">&#127918; Games/ العاب</a>
+     <a href="Home">&#128214; Books/ كتب</a>
+     <a href="#">&#128250; Live قنوات بث مباشر</a>
+    </nav>
+
+     <main>
+
+     <div class="aside">
+        <h2>Stories/ قصص</h2>
+        <a href="#">&#127916;Stories | قصص</a>
+        <a href="#"> &#128512;Play and learn |العب وتعلم</a></li> <br/>
+        <a href="#">&#9836;Songs |اناشيد</a>
+        
+
+        <h2>Books/ كتب </h2>
+        <a href="#"> &#128214;Read the story |اقراء قصة</a></li>
+        
+
+        <h2>Games/ العاب</h2>
+        <a href="#">&#127918; Games/ العاب</a>
+        
+
+        <h2>Live بث </h2>
+        <a href="#">&#128250; Live قنوات بث مباشر</a>
+        
+      </div>
+
+        <div class="play">
+        <div class="bord">
+            <button onclick="color(this, 'alf')">Alf </br> أ</button>
+            <button onclick="color(this, 'ba')">Ba </br>ب</button>
+            <button onclick="color(this, 'ta')">ta </br> ت</button>
+            <button onclick="color(this, 'tha')">tha </br> ث</button>
+            <button onclick="color(this, 'jem')">jem </br> ج</button>
+         </br>
+            <button onclick="color(this, 'ha')">ha </br> ح</button>
+            <button onclick="color(this, 'kha')">kha </br> خ</button>
+            <button onclick="color(this, 'dal')">dal </br> د</button>
+            <button onclick="color(this, 'dhal')">dhal </br> ذ</button>
+            <button onclick="color(this, 'ra')">ra </br> ر</button>
+            <button onclick="color(this, 'zay')">zay </br> ز</button>
+            <button onclick="color(this, 'sin')">sin </br> س</button>
+            <button onclick="color(this, 'shin')">shin </br> ش</button>
+            <button onclick="color(this, 'sad')">sad </br> ص</button>
+            <button onclick="color(this, 'dhad')">dhad </br> ض</button>
+            <button onclick="color(this, 'toa')">toa </br> ط</button>
+            <button onclick="color(this, 'dhaa')">dhaa </br> ظ</button>
+            <button onclick="color(this, 'aen')">aen </br> غ</button>
+            <button onclick="color(this, 'ghen')">ghen </br> ع</button>
+            <button onclick="color(this, 'fa')">fa </br> ف</button>
+            <button onclick="color(this, 'qaf')">qaf </br> ق</button>
+            <button onclick="color(this, 'kaf')">kaf </br> ك</button>
+            <button onclick="color(this, 'lam')">lam </br> ل</button>
+            <button onclick="color(this, 'meem')">meem </br> م</button>
+            <button onclick="color(this, 'noon')">noon </br> ن</button>
+            <button onclick="color(this, 'haa')">haa </br> ه</button>
+            <button onclick="color(this, 'waw')">waw </br> و</button>
+            <button onclick="color(this, 'ya')">ya </br> ي</button>
+            <button onclick="color(this, 'hmza')">hmza </br> ء</button>
+        </div>
+         <button id="reset-btn" onclick="reset()">Reset/ اعادة</button>
+    </div>
+
+
+      
+    </main>
+
+    <footer>
+
+         <div class="support us">
+         <a href="#">&#128184; Support us/ تبرع لدعمنا</a>
+         </div>
+
+            <div class="footer-info">
+            <p>&copy; All rights reserved <br/>
+            Stories for children/ قصص للأطفال
+            </p>
+            </div>
+
+         <div class="footer-contact">
+         <a href="#">&#128231; Contact us/ تواصل معنا</a>
+         <a href="https://www.youtube.com/channel/UCTdW7tm4uDTT7Smvbvob2UQ">&#127916; YouTube Channel</a>
+        </div>
+
+
+    </footer>
+
+
+ </div>
+
+
+    <script src="index.js"></script>
+
+    <audio id="alf" src="alfa/001-alif.mp3"></audio>
+   <audio id="ba" src="alfa/ba.mp3"></audio>
+   <audio id="ta" src="alfa/003-taa.mp3"></audio>
+   <audio id="tha" src="alfa/004-tha.mp3"></audio>
+   <audio id="jem" src="alfa/005-jeem.mp3"></audio>
+   <audio id="ha" src="alfa/006-haa.mp3"></audio>
+   <audio id="kha" src="alfa/007-khaa.mp3"></audio>
+   <audio id="dal" src="alfa/008-dal.mp3"></audio>
+   <audio id="dhal" src="alfa/009-dhal.mp3"></audio>
+   <audio id="ra" src="alfa/010-raa.mp3"></audio>
+   <audio id="zay" src="alfa/011-jaa.mp3"></audio>
+   <audio id="sin" src="alfa/012-seen.mp3"></audio>
+   <audio id="shin" src="alfa/013-sheen.mp3"></audio>
+   <audio id="sad" src="alfa/014-saad.mp3"></audio>
+   <audio id="dhad" src="alfa/015-dhaad.mp3"></audio>
+   <audio id="toa" src="alfa/016-toa.mp3"></audio>
+   <audio id="dhaa" src="alfa/017-dhaa.mp3"></audio>
+   <audio id="aen" src="alfa/018-ain.mp3"></audio>
+   <audio id="ghen" src="alfa/019-ghain.mp3"></audio>
+   <audio id="fa" src="alfa/020-faa.mp3"></audio>
+   <audio id="qaf" src="alfa/021-qaaf.mp3"></audio>
+   <audio id="kaf" src="alfa/022-kaaf.mp3"></audio>
+   <audio id="lam" src="alfa/023-laam.mp3"></audio>
+   <audio id="meem" src="alfa/024-meem.mp3"></audio>
+   <audio id="noon" src="alfa/025-noon.mp3"></audio>
+   <audio id="haa" src="alfa/027-ha.mp3"></audio>
+   <audio id="waw" src="alfa/026-waw.mp3"></audio>
+   <audio id="ya" src="alfa/029-yaa.mp3"></audio>
+   <audio id="hmza" src="alfa/028-hamza.mp3"></audio>
+</body>
+</html>
